@@ -1,0 +1,98 @@
+### Node / React (Vite + TypeScript) ###
+node_modules/
+dist/
+build/
+*.local
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+.vscode-test/
+
+### Vite cache ###
+.vite/
+vite.config.ts.timestamp*
+vite.config.ts.timestamp-*
+
+### TypeScript ###
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+### .NET 8 / C# ###
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vs/
+.vscode/
+launchSettings.json
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+### SQLite ###
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+### Logs ###
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+dotnet-tools.json
+
+### Postman ###
+# Collections and environments can be exported and versioned, but workspace caches should be ignored
+.postman/
+*.postman_environment.json
+*.postman_collection.json
+
+### System files ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+### VSCode ###
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+### Git ###
+*.orig
+*.swp
+*.swo
+*.tmp
+*.bak
+
+### Misc ###
+coverage/
+coverage-final.json
+.nyc_output/
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+*.rar
+.idea/
+*.iml
